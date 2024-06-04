@@ -51,18 +51,18 @@
             this.panel1.Controls.Add(this.lblGraphicsTitle);
             this.panel1.Controls.Add(this.chkDarkMode);
             this.panel1.Location = new System.Drawing.Point(0, -1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(272, 446);
+            this.panel1.Size = new System.Drawing.Size(363, 549);
             this.panel1.TabIndex = 0;
             // 
             // lblHardModeWarning
             // 
             this.lblHardModeWarning.AutoSize = true;
             this.lblHardModeWarning.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblHardModeWarning.Location = new System.Drawing.Point(43, 184);
-            this.lblHardModeWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblHardModeWarning.Location = new System.Drawing.Point(57, 226);
             this.lblHardModeWarning.Name = "lblHardModeWarning";
-            this.lblHardModeWarning.Size = new System.Drawing.Size(160, 39);
+            this.lblHardModeWarning.Size = new System.Drawing.Size(198, 48);
             this.lblHardModeWarning.TabIndex = 7;
             this.lblHardModeWarning.Text = "*Removes the restrictions on the\r\n word pool, meaning the correct\r\n word can be e" +
     "xtremely obscure\r\n";
@@ -71,10 +71,9 @@
             // 
             this.lblChkDictWarning.AutoSize = true;
             this.lblChkDictWarning.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblChkDictWarning.Location = new System.Drawing.Point(43, 130);
-            this.lblChkDictWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lblChkDictWarning.Location = new System.Drawing.Point(57, 160);
             this.lblChkDictWarning.Name = "lblChkDictWarning";
-            this.lblChkDictWarning.Size = new System.Drawing.Size(167, 26);
+            this.lblChkDictWarning.Size = new System.Drawing.Size(203, 32);
             this.lblChkDictWarning.TabIndex = 5;
             this.lblChkDictWarning.Text = "*Unchecking this will allow you to \r\nenter any possible 5 letter word.";
             // 
@@ -83,9 +82,10 @@
             this.chkHardMode.AutoSize = true;
             this.chkHardMode.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkHardMode.ForeColor = System.Drawing.SystemColors.Control;
-            this.chkHardMode.Location = new System.Drawing.Point(25, 162);
+            this.chkHardMode.Location = new System.Drawing.Point(33, 199);
+            this.chkHardMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkHardMode.Name = "chkHardMode";
-            this.chkHardMode.Size = new System.Drawing.Size(129, 26);
+            this.chkHardMode.Size = new System.Drawing.Size(161, 32);
             this.chkHardMode.TabIndex = 6;
             this.chkHardMode.Text = "Hard Mode";
             this.chkHardMode.UseVisualStyleBackColor = true;
@@ -97,9 +97,10 @@
             this.btnClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.btnClose.Location = new System.Drawing.Point(222, 10);
+            this.btnClose.Location = new System.Drawing.Point(296, 12);
+            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(34, 29);
+            this.btnClose.Size = new System.Drawing.Size(45, 36);
             this.btnClose.TabIndex = 4;
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -109,9 +110,10 @@
             this.chkHighContrast.AutoSize = true;
             this.chkHighContrast.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkHighContrast.ForeColor = System.Drawing.SystemColors.Control;
-            this.chkHighContrast.Location = new System.Drawing.Point(25, 77);
+            this.chkHighContrast.Location = new System.Drawing.Point(33, 95);
+            this.chkHighContrast.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkHighContrast.Name = "chkHighContrast";
-            this.chkHighContrast.Size = new System.Drawing.Size(155, 26);
+            this.chkHighContrast.Size = new System.Drawing.Size(194, 32);
             this.chkHighContrast.TabIndex = 3;
             this.chkHighContrast.Text = "High Contrast";
             this.chkHighContrast.UseVisualStyleBackColor = true;
@@ -124,9 +126,10 @@
             this.chkCheckDictionary.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkCheckDictionary.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkCheckDictionary.ForeColor = System.Drawing.SystemColors.Control;
-            this.chkCheckDictionary.Location = new System.Drawing.Point(25, 108);
+            this.chkCheckDictionary.Location = new System.Drawing.Point(33, 133);
+            this.chkCheckDictionary.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkCheckDictionary.Name = "chkCheckDictionary";
-            this.chkCheckDictionary.Size = new System.Drawing.Size(185, 26);
+            this.chkCheckDictionary.Size = new System.Drawing.Size(234, 32);
             this.chkCheckDictionary.TabIndex = 2;
             this.chkCheckDictionary.Text = "Check Dictionary";
             this.chkCheckDictionary.UseVisualStyleBackColor = true;
@@ -137,9 +140,10 @@
             this.lblGraphicsTitle.AutoSize = true;
             this.lblGraphicsTitle.Font = new System.Drawing.Font("Rockwell", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblGraphicsTitle.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblGraphicsTitle.Location = new System.Drawing.Point(9, 10);
+            this.lblGraphicsTitle.Location = new System.Drawing.Point(12, 12);
+            this.lblGraphicsTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblGraphicsTitle.Name = "lblGraphicsTitle";
-            this.lblGraphicsTitle.Size = new System.Drawing.Size(115, 29);
+            this.lblGraphicsTitle.Size = new System.Drawing.Size(147, 38);
             this.lblGraphicsTitle.TabIndex = 1;
             this.lblGraphicsTitle.Text = "Settings:";
             // 
@@ -150,9 +154,10 @@
             this.chkDarkMode.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkDarkMode.Font = new System.Drawing.Font("Arial Rounded MT Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chkDarkMode.ForeColor = System.Drawing.SystemColors.Control;
-            this.chkDarkMode.Location = new System.Drawing.Point(25, 47);
+            this.chkDarkMode.Location = new System.Drawing.Point(33, 58);
+            this.chkDarkMode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chkDarkMode.Name = "chkDarkMode";
-            this.chkDarkMode.Size = new System.Drawing.Size(128, 26);
+            this.chkDarkMode.Size = new System.Drawing.Size(160, 32);
             this.chkDarkMode.TabIndex = 0;
             this.chkDarkMode.Text = "Dark Mode";
             this.chkDarkMode.UseVisualStyleBackColor = true;
@@ -160,11 +165,15 @@
             // 
             // frmSettings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
-            this.ClientSize = new System.Drawing.Size(264, 339);
+            this.ClientSize = new System.Drawing.Size(352, 417);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(370, 464);
+            this.MinimumSize = new System.Drawing.Size(370, 464);
             this.Name = "frmSettings";
             this.Text = "Settings";
             this.panel1.ResumeLayout(false);
